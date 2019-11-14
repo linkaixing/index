@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('asdasd') {
       steps {
-        waitUntil()
+        git(url: 'asdasd', branch: 'asdasd', credentialsId: 'asdasd')
       }
     }
   }
